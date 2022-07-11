@@ -58,15 +58,15 @@ nav ul li a:hover{
 }
 
 #btn2{
-    height:30px;
+    height:40px;
     width:250px;
     border:1px solid rgb(245, 242, 242);
     position:absolute;
-    color:rgb(131, 121, 121);
+    color:rgb(109, 100, 100);
     top:30vh;
-    left:8vh;
-    font-family:Arial;
-    background-color:white;
+    left:10vh;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgba(125, 105, 105, 0.014);
     font-weight:bold;
     display: flex;
     justify-content: center;
@@ -85,7 +85,7 @@ img{
     position:absolute;
     top:35vh;
     font-weight:bold;
-    color:rgb(99, 88, 88);
+    color:rgb(55, 59, 105);
     padding-left:10vh;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -93,6 +93,9 @@ img{
     font-size:20px;
     color:grey;
     margin-bottom:0px;
+    position:absolute;
+    bottom:-60px;
+
 }
 footer{
     position: absolute;
@@ -103,8 +106,9 @@ footer{
     justify-content: space-evenly;
    font-size: 30px;
    font-weight: bold;
+    margin-left:70px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .last{
-    padding-left:15vh;
+    padding-right:15vh;
 }
